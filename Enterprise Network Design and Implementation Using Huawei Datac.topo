@@ -101,7 +101,7 @@
         <dev id="0C23AA8D-AFD8-4b3a-9049-811E282BF99D" name="STA10" poe="0" model="STA" settings=" -simsta_ip 0.0.0.0  -simsta_mask 0.0.0.0  -simsta_gateway 0.0.0.0  -simsta_mac 54-89-98-61-2C-98  -simsta_check 0 " system_mac="54-89-98-61-2C-98" com_port="0" bootmode="0" cx="1023.582886" cy="893.493408" edit_left="1050" edit_top="947">
             <slot number="slot17" isMainBoard="1" />
         </dev>
-        <dev id="54A0FD63-EAD5-4f6c-B725-2265C29D6236" name="Server DMZ" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-FE-26-9F -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-EA-45-16" com_port="0" bootmode="0" cx="738.132263" cy="88.056213" edit_left="765" edit_top="142">
+        <dev id="54A0FD63-EAD5-4f6c-B725-2265C29D6236" name="Server DMZ" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-FE-26-9F -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-B3-30-4F" com_port="0" bootmode="0" cx="738.132263" cy="88.056213" edit_left="765" edit_top="142">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
@@ -139,22 +139,22 @@
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
         </dev>
-        <dev id="FC5B8B87-48CE-4b57-B8F0-499363B69D2D" name="Server1" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-9D-2D-E1 -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-12-12-42" com_port="0" bootmode="0" cx="1833.240723" cy="741.773254" edit_left="1860" edit_top="795">
+        <dev id="FC5B8B87-48CE-4b57-B8F0-499363B69D2D" name="Server1" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-9D-2D-E1 -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-73-08-F8" com_port="0" bootmode="0" cx="1833.240723" cy="741.773254" edit_left="1860" edit_top="795">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
         </dev>
-        <dev id="D8526233-B5C6-4128-81C6-F93D28345972" name="Server4" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-C7-6D-72 -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-AB-47-02" com_port="0" bootmode="0" cx="1887.661133" cy="696.083374" edit_left="1914" edit_top="750">
+        <dev id="D8526233-B5C6-4128-81C6-F93D28345972" name="Server4" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-C7-6D-72 -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-3E-33-73" com_port="0" bootmode="0" cx="1887.661133" cy="696.083374" edit_left="1914" edit_top="750">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
         </dev>
-        <dev id="847C94ED-9F57-446d-A45B-21EB8C9FEEE7" name="Server3" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-DC-69-59 -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-76-72-7C" com_port="0" bootmode="0" cx="1927.202148" cy="753.657776" edit_left="1954" edit_top="807">
+        <dev id="847C94ED-9F57-446d-A45B-21EB8C9FEEE7" name="Server3" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-DC-69-59 -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-6F-69-F0" com_port="0" bootmode="0" cx="1927.202148" cy="753.657776" edit_left="1954" edit_top="807">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
         </dev>
-        <dev id="B5289F3E-C2E1-421e-BC7B-ED704E6CB88B" name="Server2" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-1B-5C-AD -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-0F-28-3C" com_port="0" bootmode="0" cx="1954.804688" cy="676.452759" edit_left="1981" edit_top="730">
+        <dev id="B5289F3E-C2E1-421e-BC7B-ED704E6CB88B" name="Server2" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-1B-5C-AD -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-70-28-B3" com_port="0" bootmode="0" cx="1954.804688" cy="676.452759" edit_left="1981" edit_top="730">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
@@ -172,7 +172,7 @@
             </slot>
             <slot isMainBoard="0" id="3" type="521" />
         </dev>
-        <dev id="3D5F2943-29F4-49f6-B37D-6821ABF3EEA5" name="Server5" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-E3-66-46 -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-41-5D-BA" com_port="0" bootmode="0" cx="1821.240723" cy="663.365356" edit_left="1848" edit_top="717">
+        <dev id="3D5F2943-29F4-49f6-B37D-6821ABF3EEA5" name="Server5" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-E3-66-46 -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-D0-6A-E6" com_port="0" bootmode="0" cx="1821.240723" cy="663.365356" edit_left="1848" edit_top="717">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
@@ -386,11 +386,6 @@
                 <interface sztype="Ethernet" interfacename="GE" count="24" />
             </slot>
         </dev>
-        <dev id="12B280F7-A6D8-49bb-8419-18A3AAB84EA6" name="CORE1" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-A2-0F-98" com_port="2007" bootmode="0" cx="775.000000" cy="320.000000" edit_left="798" edit_top="374">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="GE" count="24" />
-            </slot>
-        </dev>
         <dev id="8B9166AC-5382-4046-9CA4-8299EE401D69" name="Management" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-31-45-B6" com_port="2013" bootmode="0" cx="34.000000" cy="611.000000" edit_left="60" edit_top="660">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="GE" count="24" />
@@ -471,7 +466,12 @@
                 <interface sztype="Ethernet" interfacename="GE" count="2" />
             </slot>
         </dev>
-        <dev id="8C77C860-3829-4d3c-B675-818D4131DE88" name="AC1" poe="0" model="AC6605" settings="" system_mac="00-E0-FC-E4-70-26" com_port="2005" bootmode="0" cx="1249.000000" cy="193.000000" edit_left="1276" edit_top="247">
+        <dev id="12B280F7-A6D8-49bb-8419-18A3AAB84EA6" name="CORE1" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-A2-0F-98" com_port="2007" bootmode="0" cx="775.000000" cy="320.000000" edit_left="798" edit_top="374">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="8C77C860-3829-4d3c-B675-818D4131DE88" name="AC1" poe="0" model="AC6605" settings="" system_mac="00-E0-FC-E4-70-26" com_port="2005" bootmode="0" cx="1250.000000" cy="193.000000" edit_left="1277" edit_top="247">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="GE" count="24" />
             </slot>
@@ -713,7 +713,7 @@
             <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="947.826782" srcBoundRect_Y="119.044838" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="808.173218" tarBoundRect_Y="115.955162" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
         </line>
         <line srcDeviceID="B31FA8B4-8EC6-4468-8898-92DBE9629963" destDeviceID="8C77C860-3829-4d3c-B675-818D4131DE88">
-            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="0" srcBoundRect_X="1034.182739" srcBoundRect_Y="221.696960" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="1232.817261" tarBoundRect_Y="220.303040" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="0" srcBoundRect_X="1034.182739" srcBoundRect_Y="221.698029" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="1233.817261" tarBoundRect_Y="220.301971" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
         </line>
         <line srcDeviceID="5F5B4D8D-4081-4b6b-AEE7-277D5C8056F6" destDeviceID="B31FA8B4-8EC6-4468-8898-92DBE9629963">
             <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="0" srcBoundRect_X="991.000000" srcBoundRect_Y="163.183762" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="991.000000" tarBoundRect_Y="178.816238" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
