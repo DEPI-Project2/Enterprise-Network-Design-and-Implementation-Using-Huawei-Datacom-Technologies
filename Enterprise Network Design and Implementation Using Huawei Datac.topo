@@ -75,11 +75,6 @@
                 <interface sztype="Ethernet" interfacename="GE" count="2" />
             </slot>
         </dev>
-        <dev id="B449FE6D-1E59-4da8-9377-95292DD282E1" name="AP5" poe="0" model="AP4050" settings=" -apMac 00-E0-FC-77-43-10 -apSN 210235448310AB33763D" system_mac="00-E0-FC-77-43-10" com_port="2031" bootmode="0" cx="602.380981" cy="544.722290" edit_left="629" edit_top="598">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="GE" count="2" />
-            </slot>
-        </dev>
         <dev id="7ECB5CD7-6789-4dc9-87A9-1C2D0B2CE224" name="STA4" poe="0" model="STA" settings=" -simsta_ip 0.0.0.0  -simsta_mask 0.0.0.0  -simsta_gateway 0.0.0.0  -simsta_mac 54-89-98-68-03-ED  -simsta_check 0 " system_mac="54-89-98-68-03-ED" com_port="0" bootmode="0" cx="747.293579" cy="808.403870" edit_left="774" edit_top="862">
             <slot number="slot17" isMainBoard="1" />
         </dev>
@@ -101,7 +96,7 @@
         <dev id="0C23AA8D-AFD8-4b3a-9049-811E282BF99D" name="STA10" poe="0" model="STA" settings=" -simsta_ip 0.0.0.0  -simsta_mask 0.0.0.0  -simsta_gateway 0.0.0.0  -simsta_mac 54-89-98-61-2C-98  -simsta_check 0 " system_mac="54-89-98-61-2C-98" com_port="0" bootmode="0" cx="1023.582886" cy="893.493408" edit_left="1050" edit_top="947">
             <slot number="slot17" isMainBoard="1" />
         </dev>
-        <dev id="54A0FD63-EAD5-4f6c-B725-2265C29D6236" name="Server DMZ" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-FE-26-9F -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-B3-30-4F" com_port="0" bootmode="0" cx="738.132263" cy="88.056213" edit_left="765" edit_top="142">
+        <dev id="54A0FD63-EAD5-4f6c-B725-2265C29D6236" name="Server DMZ" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-FE-26-9F -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-51-19-44" com_port="0" bootmode="0" cx="738.132263" cy="88.056213" edit_left="765" edit_top="142">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
@@ -115,53 +110,35 @@
         <dev id="4A64C669-05CA-4eaa-A87B-E120BCBFC0B7" name="STA15" poe="0" model="STA" settings=" -simsta_ip 0.0.0.0  -simsta_mask 0.0.0.0  -simsta_gateway 0.0.0.0  -simsta_mac 54-89-98-F1-6A-22  -simsta_check 0 " system_mac="54-89-98-F1-6A-22" com_port="0" bootmode="0" cx="1251.756714" cy="835.211426" edit_left="1278" edit_top="889">
             <slot number="slot17" isMainBoard="1" />
         </dev>
-        <dev id="5D7483AE-8B66-4623-BC85-E219D213B84B" name="AP10" poe="0" model="AP4050" settings=" -apMac 00-E0-FC-60-62-50 -apSN 210235448310723D8919" system_mac="00-E0-FC-60-62-50" com_port="2036" bootmode="0" cx="1341.292603" cy="740.219666" edit_left="1368" edit_top="794">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="GE" count="2" />
-            </slot>
-        </dev>
         <dev id="518A192B-EB63-42b5-ACE5-62D054F4CB15" name="Cellphone3" poe="0" model="Cellphone" settings=" -simsta_ip 0.0.0.0  -simsta_mask 0.0.0.0  -simsta_gateway 0.0.0.0  -simsta_mac 54-89-98-BA-6E-5A  -simsta_check 0 " system_mac="54-89-98-BA-6E-5A" com_port="0" bootmode="0" cx="1585.151123" cy="847.414246" edit_left="1612" edit_top="901">
-            <slot number="slot17" isMainBoard="1" />
-        </dev>
-        <dev id="61DF0113-C444-4732-93B2-CB72EE36DAF1" name="Cellphone4" poe="0" model="Cellphone" settings=" -simsta_ip 0.0.0.0  -simsta_mask 0.0.0.0  -simsta_gateway 0.0.0.0  -simsta_mac 54-89-98-35-7E-1E  -simsta_check 0 " system_mac="54-89-98-35-7E-1E" com_port="0" bootmode="0" cx="1514.228149" cy="811.906494" edit_left="1541" edit_top="865">
             <slot number="slot17" isMainBoard="1" />
         </dev>
         <dev id="5DCF171A-C868-4469-BA65-26579DF5A44C" name="Cellphone2" poe="0" model="Cellphone" settings=" -simsta_ip 0.0.0.0  -simsta_mask 0.0.0.0  -simsta_gateway 0.0.0.0  -simsta_mac 54-89-98-72-49-8F  -simsta_check 0 " system_mac="54-89-98-72-49-8F" com_port="0" bootmode="0" cx="1464.769287" cy="823.270691" edit_left="1491" edit_top="877">
             <slot number="slot17" isMainBoard="1" />
-        </dev>
-        <dev id="18155DE0-1FE3-46c2-BE2D-F77153D66B50" name="AP13" poe="0" model="AP4050" settings=" -apMac 00-E0-FC-86-4B-00 -apSN 2102354483107755316A" system_mac="00-E0-FC-86-4B-00" com_port="2039" bootmode="0" cx="1655.030518" cy="869.186401" edit_left="1682" edit_top="923">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="GE" count="2" />
-            </slot>
         </dev>
         <dev id="5AE314D3-D4D8-4021-844B-F8BBD71AD379" name="PC38" poe="0" model="PC" settings=" -simpc_ip 0.0.0.0  -simpc_mask 0.0.0.0  -simpc_gateway 0.0.0.0  -simpc_mac 54-89-98-B5-01-BB  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-B5-01-BB" com_port="0" bootmode="0" cx="1744.920166" cy="869.127075" edit_left="1771" edit_top="923">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
         </dev>
-        <dev id="FC5B8B87-48CE-4b57-B8F0-499363B69D2D" name="Server1" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-9D-2D-E1 -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-73-08-F8" com_port="0" bootmode="0" cx="1833.240723" cy="741.773254" edit_left="1860" edit_top="795">
+        <dev id="FC5B8B87-48CE-4b57-B8F0-499363B69D2D" name="Server1" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-9D-2D-E1 -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-A9-71-AB" com_port="0" bootmode="0" cx="1833.240723" cy="741.773254" edit_left="1860" edit_top="795">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
         </dev>
-        <dev id="D8526233-B5C6-4128-81C6-F93D28345972" name="Server4" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-C7-6D-72 -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-3E-33-73" com_port="0" bootmode="0" cx="1887.661133" cy="696.083374" edit_left="1914" edit_top="750">
+        <dev id="D8526233-B5C6-4128-81C6-F93D28345972" name="Server4" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-C7-6D-72 -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-0E-06-E8" com_port="0" bootmode="0" cx="1887.661133" cy="696.083374" edit_left="1914" edit_top="750">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
         </dev>
-        <dev id="847C94ED-9F57-446d-A45B-21EB8C9FEEE7" name="Server3" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-DC-69-59 -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-6F-69-F0" com_port="0" bootmode="0" cx="1927.202148" cy="753.657776" edit_left="1954" edit_top="807">
+        <dev id="847C94ED-9F57-446d-A45B-21EB8C9FEEE7" name="Server3" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-DC-69-59 -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-73-1C-25" com_port="0" bootmode="0" cx="1927.202148" cy="753.657776" edit_left="1954" edit_top="807">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
         </dev>
-        <dev id="B5289F3E-C2E1-421e-BC7B-ED704E6CB88B" name="Server2" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-1B-5C-AD -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-70-28-B3" com_port="0" bootmode="0" cx="1954.804688" cy="676.452759" edit_left="1981" edit_top="730">
+        <dev id="B5289F3E-C2E1-421e-BC7B-ED704E6CB88B" name="Server2" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-1B-5C-AD -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-41-71-68" com_port="0" bootmode="0" cx="1954.804688" cy="676.452759" edit_left="1981" edit_top="730">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
-            </slot>
-        </dev>
-        <dev id="3A9EBC35-567A-4b1b-903D-D77AC9C4CE73" name="Server  " poe="0" model="S5700" settings="" system_mac="4C-1F-CC-13-06-67" com_port="2025" bootmode="0" cx="1904.740112" cy="567.700012" edit_left="1934" edit_top="619">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="GE" count="24" />
             </slot>
         </dev>
         <dev id="5F5B4D8D-4081-4b6b-AEE7-277D5C8056F6" name="ISP3" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-26-57-FC" com_port="2006" bootmode="1" cx="964.716064" cy="93.807510" edit_left="991" edit_top="147">
@@ -172,7 +149,7 @@
             </slot>
             <slot isMainBoard="0" id="3" type="521" />
         </dev>
-        <dev id="3D5F2943-29F4-49f6-B37D-6821ABF3EEA5" name="Server5" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-E3-66-46 -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-D0-6A-E6" com_port="0" bootmode="0" cx="1821.240723" cy="663.365356" edit_left="1848" edit_top="717">
+        <dev id="3D5F2943-29F4-49f6-B37D-6821ABF3EEA5" name="Server5" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-E3-66-46 -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-6B-68-D6" com_port="0" bootmode="0" cx="1821.240723" cy="663.365356" edit_left="1848" edit_top="717">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
@@ -221,16 +198,6 @@
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
         </dev>
-        <dev id="FFCB0D85-4349-45ea-86DB-144D999C8C8C" name="Marketing" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-AE-09-A4" com_port="2016" bootmode="0" cx="498.000000" cy="601.000000" edit_left="525" edit_top="655">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="GE" count="24" />
-            </slot>
-        </dev>
-        <dev id="2B655521-8DB8-42c0-AC82-EA153B02B6CF" name="Finance" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-C5-6D-30" com_port="2017" bootmode="0" cx="634.000000" cy="603.000000" edit_left="661" edit_top="657">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="GE" count="24" />
-            </slot>
-        </dev>
         <dev id="996A2216-B4F0-4564-9A51-69E3C76DCEE9" name="PC11" poe="0" model="PC" settings=" -simpc_ip 0.0.0.0  -simpc_mask 0.0.0.0  -simpc_gateway 0.0.0.0  -simpc_mac 54-89-98-8A-62-29  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 1  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 1  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-8A-62-29" com_port="0" bootmode="0" cx="583.601563" cy="731.988647" edit_left="610" edit_top="785">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
@@ -244,11 +211,6 @@
         <dev id="17EDFE93-8BDB-4ce1-8DEB-E854DA87EA3B" name="PC12" poe="0" model="PC" settings=" -simpc_ip 0.0.0.0  -simpc_mask 0.0.0.0  -simpc_gateway 0.0.0.0  -simpc_mac 54-89-98-CD-7D-E6  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 1  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 1  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-CD-7D-E6" com_port="0" bootmode="0" cx="674.309143" cy="718.883545" edit_left="701" edit_top="772">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
-            </slot>
-        </dev>
-        <dev id="88F5BE3C-1846-41ed-83D1-D47DC630DEA1" name="AP4" poe="0" model="AP4050" settings=" -apMac 00-E0-FC-C7-5E-C0 -apSN 2102354483105322DB49" system_mac="00-E0-FC-C7-5E-C0" com_port="2030" bootmode="0" cx="524.771118" cy="542.081299" edit_left="551" edit_top="596">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="GE" count="2" />
             </slot>
         </dev>
         <dev id="8CFFDB34-B55E-4985-99B4-4C421C65F186" name="PC14" poe="0" model="PC" settings=" -simpc_ip 0.0.0.0  -simpc_mask 0.0.0.0  -simpc_gateway 0.0.0.0  -simpc_mac 54-89-98-4D-43-54  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 1  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 1  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-4D-43-54" com_port="0" bootmode="0" cx="740.475708" cy="683.878357" edit_left="767" edit_top="737">
@@ -346,11 +308,6 @@
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
         </dev>
-        <dev id="765E8814-BE06-43ac-9806-58DC983FC57C" name="Call center" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-50-75-62" com_port="2022" bootmode="0" cx="1381.410034" cy="551.800049" edit_left="1408" edit_top="605">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="GE" count="24" />
-            </slot>
-        </dev>
         <dev id="A353B307-E0F5-46d5-99D2-814706689086" name="AGG3" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-EE-50-C7" com_port="2011" bootmode="0" cx="1403.000000" cy="467.000000" edit_left="1430" edit_top="521">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="GE" count="24" />
@@ -371,11 +328,6 @@
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
         </dev>
-        <dev id="0310E53F-F238-4568-992F-E8DF7FC8A29C" name="S &amp; L &amp; B &amp; Q" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-5F-0A-76" com_port="2026" bootmode="0" cx="1693.080078" cy="556.860046" edit_left="1720" edit_top="610">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="GE" count="24" />
-            </slot>
-        </dev>
         <dev id="0FF5E07C-1A82-4a09-84B0-871499AF5959" name="AGG4" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-08-2A-19" com_port="2012" bootmode="0" cx="1852.000000" cy="436.000000" edit_left="1879" edit_top="490">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="GE" count="24" />
@@ -391,41 +343,6 @@
                 <interface sztype="Ethernet" interfacename="GE" count="24" />
             </slot>
         </dev>
-        <dev id="BC6C9ADB-AEFF-42a1-88E0-1FA1ADEE9A00" name="HR" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-94-39-12" com_port="2015" bootmode="0" cx="315.000000" cy="600.000000" edit_left="343" edit_top="653">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="GE" count="24" />
-            </slot>
-        </dev>
-        <dev id="3D1FC377-0291-41f8-AEFD-18C5955DECB8" name="R&amp;D" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-A7-08-F7" com_port="2018" bootmode="0" cx="791.000000" cy="599.000000" edit_left="818" edit_top="653">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="GE" count="24" />
-            </slot>
-        </dev>
-        <dev id="B19C60F4-DE3E-4a50-99D0-0E75A1BA58BF" name="IT" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-C4-01-51" com_port="2019" bootmode="0" cx="953.000000" cy="590.000000" edit_left="980" edit_top="644">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="GE" count="24" />
-            </slot>
-        </dev>
-        <dev id="98F5524E-2A80-4f91-A92B-BC26167010C6" name="Cyber Security" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-DB-66-DE" com_port="2020" bootmode="0" cx="1128.000000" cy="598.000000" edit_left="1155" edit_top="652">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="GE" count="24" />
-            </slot>
-        </dev>
-        <dev id="C76AD31A-3FF3-4bf2-A1AC-80818C9AA585" name="Eng &amp; infra" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-6E-25-98" com_port="2021" bootmode="0" cx="1250.709961" cy="561.060059" edit_left="1277" edit_top="615">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="GE" count="24" />
-            </slot>
-        </dev>
-        <dev id="D8D11511-ADE2-4dcc-86DD-5546AD6C28D2" name="Voice" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-9B-44-6F" com_port="2023" bootmode="0" cx="1488.810059" cy="570.010010" edit_left="1515" edit_top="624">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="GE" count="24" />
-            </slot>
-        </dev>
-        <dev id="62A91754-0B9B-4599-B1C5-EC7DCBE605D8" name="Guest" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-F9-77-13" com_port="2024" bootmode="0" cx="1580.150024" cy="563.380005" edit_left="1607" edit_top="617">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="GE" count="24" />
-            </slot>
-        </dev>
         <dev id="D12C9886-2A2D-4960-87B7-B6D975E236A0" name="AP1" poe="0" model="AP4050" settings=" -apMac 00-E0-FC-83-4F-A0 -apSN 210235448310C468A534" system_mac="00-E0-FC-83-4F-A0" com_port="2027" bootmode="0" cx="14.607700" cy="538.578613" edit_left="41" edit_top="592">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="GE" count="2" />
@@ -434,6 +351,41 @@
         <dev id="F76370DE-8660-4d26-B1C0-30EDDF4EA464" name="AP3" poe="0" model="AP4050" settings=" -apMac 00-E0-FC-E1-6E-F0 -apSN 2102354483109C78095F" system_mac="00-E0-FC-E1-6E-F0" com_port="2029" bootmode="0" cx="371.322632" cy="575.755554" edit_left="398" edit_top="629">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="8C77C860-3829-4d3c-B675-818D4131DE88" name="AC1" poe="0" model="AC6605" settings="" system_mac="00-E0-FC-E4-70-26" com_port="2005" bootmode="0" cx="1250.000000" cy="193.000000" edit_left="1277" edit_top="247">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="88F5BE3C-1846-41ed-83D1-D47DC630DEA1" name="AP4" poe="0" model="AP4050" settings=" -apMac 00-E0-FC-C7-5E-C0 -apSN 2102354483105322DB49" system_mac="00-E0-FC-C7-5E-C0" com_port="2030" bootmode="0" cx="524.771118" cy="542.081299" edit_left="551" edit_top="596">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="FFCB0D85-4349-45ea-86DB-144D999C8C8C" name="Marketing" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-AE-09-A4" com_port="2016" bootmode="0" cx="498.000000" cy="601.000000" edit_left="525" edit_top="655">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="BC6C9ADB-AEFF-42a1-88E0-1FA1ADEE9A00" name="HR" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-94-39-12" com_port="2015" bootmode="0" cx="315.000000" cy="600.000000" edit_left="343" edit_top="653">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="2B655521-8DB8-42c0-AC82-EA153B02B6CF" name="Finance" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-C5-6D-30" com_port="2017" bootmode="0" cx="634.000000" cy="603.000000" edit_left="661" edit_top="657">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="B449FE6D-1E59-4da8-9377-95292DD282E1" name="AP5" poe="0" model="AP4050" settings=" -apMac 00-E0-FC-77-43-10 -apSN 210235448310AB33763D" system_mac="00-E0-FC-77-43-10" com_port="2031" bootmode="0" cx="602.380981" cy="544.722290" edit_left="629" edit_top="598">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="3D1FC377-0291-41f8-AEFD-18C5955DECB8" name="R&amp;D" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-A7-08-F7" com_port="2018" bootmode="0" cx="791.000000" cy="599.000000" edit_left="818" edit_top="653">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
             </slot>
         </dev>
         <dev id="714E2623-80E6-4065-B82C-7E6F9E31D8E3" name="AP6" poe="0" model="AP4050" settings=" -apMac 00-E0-FC-C3-47-20 -apSN 2102354483104D3F5009" system_mac="00-E0-FC-C3-47-20" com_port="2032" bootmode="0" cx="746.039673" cy="558.219666" edit_left="773" edit_top="612">
@@ -446,9 +398,19 @@
                 <interface sztype="Ethernet" interfacename="GE" count="2" />
             </slot>
         </dev>
+        <dev id="B19C60F4-DE3E-4a50-99D0-0E75A1BA58BF" name="IT" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-C4-01-51" com_port="2019" bootmode="0" cx="953.000000" cy="590.000000" edit_left="980" edit_top="644">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
         <dev id="588253CA-19EA-4939-9A77-26ADF85B41AD" name="AP8" poe="0" model="AP4050" settings=" -apMac 00-E0-FC-52-1D-F0 -apSN 210235448310AF76CE45" system_mac="00-E0-FC-52-1D-F0" com_port="2034" bootmode="0" cx="1153.731689" cy="544.617188" edit_left="1180" edit_top="598">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="98F5524E-2A80-4f91-A92B-BC26167010C6" name="Cyber Security" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-DB-66-DE" com_port="2020" bootmode="0" cx="1128.000000" cy="598.000000" edit_left="1155" edit_top="652">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
             </slot>
         </dev>
         <dev id="0FEBB405-BBD9-421a-8F1C-006F97A2DA47" name="AP9" poe="0" model="AP4050" settings=" -apMac 00-E0-FC-13-28-40 -apSN 2102354483109A556714" system_mac="00-E0-FC-13-28-40" com_port="2035" bootmode="0" cx="1303.126099" cy="625.794067" edit_left="1330" edit_top="679">
@@ -456,12 +418,30 @@
                 <interface sztype="Ethernet" interfacename="GE" count="2" />
             </slot>
         </dev>
-        <dev id="CB7DF93F-016C-49e6-8E45-DBCCBC55C8FF" name="AP11" poe="0" model="AP4050" settings=" -apMac 00-E0-FC-7B-66-E0 -apSN 210235448310C07D900C" system_mac="00-E0-FC-7B-66-E0" com_port="2037" bootmode="0" cx="1486.890015" cy="702.219666" edit_left="1513" edit_top="756">
+        <dev id="C76AD31A-3FF3-4bf2-A1AC-80818C9AA585" name="Eng &amp; infra" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-6E-25-98" com_port="2021" bootmode="0" cx="1250.709961" cy="561.060059" edit_left="1277" edit_top="615">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="5D7483AE-8B66-4623-BC85-E219D213B84B" name="AP10" poe="0" model="AP4050" settings=" -apMac 00-E0-FC-60-62-50 -apSN 210235448310723D8919" system_mac="00-E0-FC-60-62-50" com_port="2036" bootmode="0" cx="1341.292603" cy="740.219666" edit_left="1368" edit_top="794">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="GE" count="2" />
             </slot>
         </dev>
-        <dev id="263A2670-473B-4d17-86AA-EDE4088E8DB5" name="AP12" poe="0" model="AP4050" settings=" -apMac 00-E0-FC-00-1F-C0 -apSN 2102354483109934740C" system_mac="00-E0-FC-00-1F-C0" com_port="2038" bootmode="0" cx="1581.376953" cy="756.799255" edit_left="1608" edit_top="810">
+        <dev id="765E8814-BE06-43ac-9806-58DC983FC57C" name="Call center" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-50-75-62" com_port="2022" bootmode="0" cx="1381.410034" cy="551.800049" edit_left="1408" edit_top="605">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="61DF0113-C444-4732-93B2-CB72EE36DAF1" name="Cellphone4" poe="0" model="Cellphone" settings=" -simsta_ip 0.0.0.0  -simsta_mask 0.0.0.0  -simsta_gateway 0.0.0.0  -simsta_mac 54-89-98-35-7E-1E  -simsta_check 0 " system_mac="54-89-98-35-7E-1E" com_port="0" bootmode="0" cx="1514.228149" cy="811.906494" edit_left="1541" edit_top="865">
+            <slot number="slot17" isMainBoard="1" />
+        </dev>
+        <dev id="D8D11511-ADE2-4dcc-86DD-5546AD6C28D2" name="Voice" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-9B-44-6F" com_port="2023" bootmode="0" cx="1488.810059" cy="570.010010" edit_left="1515" edit_top="624">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="CB7DF93F-016C-49e6-8E45-DBCCBC55C8FF" name="AP11" poe="0" model="AP4050" settings=" -apMac 00-E0-FC-7B-66-E0 -apSN 210235448310C07D900C" system_mac="00-E0-FC-7B-66-E0" com_port="2037" bootmode="0" cx="1486.890015" cy="702.219666" edit_left="1513" edit_top="756">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="GE" count="2" />
             </slot>
@@ -471,7 +451,27 @@
                 <interface sztype="Ethernet" interfacename="GE" count="24" />
             </slot>
         </dev>
-        <dev id="8C77C860-3829-4d3c-B675-818D4131DE88" name="AC1" poe="0" model="AC6605" settings="" system_mac="00-E0-FC-E4-70-26" com_port="2005" bootmode="0" cx="1250.000000" cy="193.000000" edit_left="1277" edit_top="247">
+        <dev id="263A2670-473B-4d17-86AA-EDE4088E8DB5" name="AP12" poe="0" model="AP4050" settings=" -apMac 00-E0-FC-00-1F-C0 -apSN 2102354483109934740C" system_mac="00-E0-FC-00-1F-C0" com_port="2038" bootmode="0" cx="1581.376953" cy="756.799255" edit_left="1608" edit_top="810">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="62A91754-0B9B-4599-B1C5-EC7DCBE605D8" name="Guest" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-F9-77-13" com_port="2024" bootmode="0" cx="1580.150024" cy="563.380005" edit_left="1607" edit_top="617">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="3A9EBC35-567A-4b1b-903D-D77AC9C4CE73" name="Server  " poe="0" model="S5700" settings="" system_mac="4C-1F-CC-13-06-67" com_port="2025" bootmode="0" cx="1904.740112" cy="567.700012" edit_left="1934" edit_top="619">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="18155DE0-1FE3-46c2-BE2D-F77153D66B50" name="AP13" poe="0" model="AP4050" settings=" -apMac 00-E0-FC-86-4B-00 -apSN 2102354483107755316A" system_mac="00-E0-FC-86-4B-00" com_port="2039" bootmode="0" cx="1655.030518" cy="869.186401" edit_left="1682" edit_top="923">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="0310E53F-F238-4568-992F-E8DF7FC8A29C" name="S &amp; L &amp; B &amp; Q" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-5F-0A-76" com_port="2026" bootmode="0" cx="1693.080078" cy="556.860046" edit_left="1720" edit_top="610">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="GE" count="24" />
             </slot>
@@ -752,20 +752,20 @@
         <shape type="1" filloption="1" color="8421440" upleftcorner="1808,568" width="196" height="391" startpt="0,0" endpt="0,0" borderStyle="0" borderWidth="1" />
     </shapes>
     <txttips>
-        <txttip left="1620" top="981" right="1984" bottom="1002" content="Supply chain &amp; Law &amp; Business &amp; Quaity " fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
-        <txttip left="27" top="883" right="112" bottom="908" content="vlan 10" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
-        <txttip left="160" top="875" right="245" bottom="900" content="vlan 20" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
-        <txttip left="332" top="895" right="417" bottom="920" content="vlan 30" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
-        <txttip left="481" top="893" right="566" bottom="918" content="vlan 40" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
-        <txttip left="637" top="891" right="722" bottom="916" content="vlan 50" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
-        <txttip left="765" top="895" right="850" bottom="920" content="vlan 60" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
-        <txttip left="954" top="995" right="1039" bottom="1020" content="vlan 70" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
-        <txttip left="1139" top="931" right="1224" bottom="956" content="vlan 80" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
-        <txttip left="1251" top="923" right="1313" bottom="944" content="vlan90" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
-        <txttip left="1366" top="916" right="1447" bottom="937" content="vlan 100" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
-        <txttip left="1482" top="922" right="1563" bottom="943" content="vlan 110" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
-        <txttip left="1582" top="928" right="1663" bottom="949" content="VLAN 120" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
-        <txttip left="1694" top="932" right="1775" bottom="953" content="vlan 130" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
-        <txttip left="1889" top="935" right="1970" bottom="956" content="Vlan 140" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="1620" top="981" right="1911" bottom="998" content="Supply chain &amp; Law &amp; Business &amp; Quaity " fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="27" top="883" right="95" bottom="903" content="vlan 10" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="160" top="875" right="228" bottom="895" content="vlan 20" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="332" top="895" right="400" bottom="915" content="vlan 30" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="481" top="893" right="549" bottom="913" content="vlan 40" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="637" top="891" right="705" bottom="911" content="vlan 50" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="765" top="895" right="833" bottom="915" content="vlan 60" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="954" top="995" right="1022" bottom="1015" content="vlan 70" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="1139" top="931" right="1207" bottom="951" content="vlan 80" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="1251" top="923" right="1300" bottom="940" content="vlan90" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="1366" top="916" right="1430" bottom="933" content="vlan 100" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="1482" top="922" right="1546" bottom="939" content="vlan 110" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="1582" top="928" right="1646" bottom="945" content="VLAN 120" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="1694" top="932" right="1758" bottom="949" content="vlan 130" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="1889" top="935" right="1953" bottom="952" content="Vlan 140" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
     </txttips>
 </topo>
